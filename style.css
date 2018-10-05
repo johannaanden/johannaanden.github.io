@@ -1,3 +1,5 @@
+/*INDEX*/
+
 .section {
 position: relative;
 width: 100%;
@@ -9,15 +11,14 @@ overflow: hidden; /*No scroll function*/
 }
 
 
-.section h1, a:link, a:visited, a:hover, a:active {
+#startlink, h1, a:link, a:visited, a:hover, a:active {
     text-align: center;
     font-size: 6rem;
     font-family: arial;
     color: white;
     text-decoration: none;
     padding: 20px; /* Inside the box*/
-    margin: 15px; /*Utside the box*/
-    opacity: 0.8; 
+    margin: 15px; /*Utside the box*/ 
     z-index: 1; /*Layer, this will do that the link is on top of the video*/
 }
 
@@ -27,3 +28,37 @@ overflow: hidden; /*No scroll function*/
     left: 0;
     width: 100%;
 }
+
+/*HOME*/
+
+.homesection {
+    position: relative;
+    width: 100%;
+    height: 100vh;/*vh= viewport height*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /*No scroll function*/
+    }
+
+    .homesection p {
+        text-align: center;
+        font-size: 12px;
+        font-family: arial;
+        color: black;
+        text-decoration: none;
+        padding: 20px; /* Inside the box*/
+        margin: 15px; /*Utside the box*/
+        z-index: 1; /*Layer, this will do that the link is on top of the video*/
+    }
+
+   
+    .color-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: white;
+        width: 100%;
+        height: 100vh;
+        opacity: 0.7;
+    }
