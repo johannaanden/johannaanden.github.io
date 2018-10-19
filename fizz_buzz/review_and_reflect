@@ -1,0 +1,19 @@
+How does flow control work?
+Flow control are pieces of code that decide which part of the code that will run next
+
+Can you come up with another example of flow control that you could have used here?
+Ifelse
+
+How does the % operator work?
+If we have a % b, then it calculate everithing for me and tells med whats is left.
+
+example: 10 % 3 = 1
+It means that number 3 fits in numer 10 3 times, and that 1 is left
+
+exempel: 3 % 10 = 3
+The fact is that nummer 3 is much smaller than number 10, it's a difference of 7, and the result of that is that number 3 won't fit even once in number 10.
+That will result that number 3 will be the result of 3 % 10.
+
+What is the difference between = and ==?
+= You use this to assign the value of a variable. It's an assignment operator. 
+== This one checks whether tow values are equal.
